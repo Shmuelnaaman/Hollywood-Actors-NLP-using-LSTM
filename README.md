@@ -8,4 +8,4 @@ Due to obviously limited time, I focus my efforts on efficient preprocessing tha
  * Used nltk sentence tokenizer as an input to create stem words.
  * Remove stop words
  * Perform word embodied as part of the deep neural network. These steps allow me to reduce the dimension of the problem, and work with relatively clean data. Which is particularly important for this data set which is quite small. 
- * I choose to use an artificial recurrent neural network (RNN) architecture of the type Long short-term memory (LSTM).  LSTM networks are well-suited to classifying, processing and making predictions based on time series data.
+ * I choose to use an artificial recurrent neural network (RNN) architecture of the type Long short-term memory (LSTM).  [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) networks are well-suited to classifying, processing and making predictions based on time series data.
