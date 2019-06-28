@@ -1,5 +1,5 @@
 # Hollywood-Actors
-Can we predict if an actor won the Oscar based on the career article in Wikipedia?
+## Can we predict if an actor won the Oscar based on the career article in Wikipedia?
 
 I analyze the "Holywood Actors" articles in Wikipedia. I choose to use the list of actors that appears on ['Hollywood Walk of Fame motion picture stars'](https://en.wikipedia.org/wiki/List_of_actors_with_Hollywood_Walk_of_Fame_motion_picture_stars). This is not a complete list of actors but it represents significant stars in the Hollywood industry. The list includes around 900 actors 200 of them were nominated to Oscar and another 200 won an Oscar. 
 I wanted a model that classify actors that 'won' the Oscar, 'nominated' to Oscar and 'did not won or nominated to the oscar' will demonstrate some of my skills in data processing and modeling. 
