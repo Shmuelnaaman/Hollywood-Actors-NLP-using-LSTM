@@ -1,10 +1,10 @@
-# Hollywood-Actors
+# Hollywood-Actors NLP using LSTM implemented with TensorFlow and Keras
 ### Can we predict if an actor won the Oscar based on the career article in Wikipedia?
 
-The model use LSTM NLP to analyze the "Holywood Actors" articles in Wikipedia. The list of actors was obtained from the wikipedia page that list all actors that appears on ['Hollywood Walk of Fame motion picture stars'](https://en.wikipedia.org/wiki/List_of_actors_with_Hollywood_Walk_of_Fame_motion_picture_stars). This is not a complete list of actors but it represents significant stars in the Hollywood industry. 
+The model uses LSTM NLP to analyze the "Holywood Actors" articles in Wikipedia. The list of actors was obtained from the Wikipedia page that lists all actors that appear on ['Hollywood Walk of Fame motion picture stars'](https://en.wikipedia.org/wiki/List_of_actors_with_Hollywood_Walk_of_Fame_motion_picture_stars). This is not a complete list of actors but it represents significant stars in the Hollywood industry. 
 
 The list includes around 900 actors 200 of them were nominated to Oscar and another 200 won an Oscar. 
-The model classify actors as 'won' the Oscar, 'nominated' to Oscar or 'did not won or nominated to the oscar'. 
+The model classifies actors as 'won' the Oscar, 'nominated' to Oscar or 'did not won or nominated to the oscar'. 
 
 Here, I focus efforts on efficient and quick preprocessing that will enhance the signal. 
  * I perform basic cleaning of the data 
