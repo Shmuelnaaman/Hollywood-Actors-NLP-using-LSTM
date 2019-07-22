@@ -17,6 +17,6 @@ These steps allow me to reduce the dimension of the problem, and work with relat
  * I choose to use an artificial recurrent neural network (RNN) architecture of the type Long short-term memory (LSTM).  [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) networks are well-suited to classifying, processing and making predictions based on time series data.
  
 ### Reference
-# Extracting the names of actors and the oscar nomination : https://qxf2.com/blog/web-scraping-using-python/ , https://pypi.org/project/wikipedia/
-# Extracting the career : https://pypi.org/project/Wikipedia-API/0.2.0/
-# Model : https://github.com/udacity/deep-learning/blob/master/sentiment-rnn/Sentiment_RNN_Solution.ipynb
+#### # Extracting the names of actors and the oscar nomination : https://qxf2.com/blog/web-scraping-using-python/ , https://pypi.org/project/wikipedia/
+#### # Extracting the career : https://pypi.org/project/Wikipedia-API/0.2.0/
+#### # Model : https://github.com/udacity/deep-learning/blob/master/sentiment-rnn/Sentiment_RNN_Solution.ipynb
