@@ -2,7 +2,7 @@
 ### Can we predict if an actor won the Oscar based on the career article in Wikipedia?
 
 #### Methods used for the analysis
-LSTM, Topic Extraction, Cosine Similarities, TfIdf
+[LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory), [Topic Extraction](https://en.wikipedia.org/wiki/Topic_model), [Cosine Similarities](https://en.wikipedia.org/wiki/Cosine_similarity), [TfIdf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
 
 ## Introduction:
 #### Since the performance of the naive model is not satisfactory, here I try another approach that is more elegant (LDA_LSTM_TFIDF.ipynb).
@@ -13,10 +13,10 @@ I use the same list of actors that appears on 'Hollywood Walk of Fame motion pic
 Overview:
 I focus my efforts on efficient but basic preprocessing that will enhance the signal. 
 I perform basic cleaning of the data, remove numbers, stop words, tokenize words.
-Latent Dirichlet allocation (LDA) and Non-Negative Matrix Factorization (NMF) is implemented to identifies 5 different topics in the articles. 
+[Latent Dirichlet allocation](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) (LDA) and [Non-Negative Matrix Factorization](https://en.wikipedia.org/wiki/Non-negative_matrix_factorization) (NMF) is implemented to identifies 5 different topics in the articles. 
 TfIdf and Cosine Similarities are used to identifies the 4 sentences in each document that are most relevant to the target variable "Oscar". 
 Only these 4 sentences will be used as input for the model. 
-I choose to use an artificial recurrent neural network (RNN) architecture of the type Long short-term memory [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory). LSTM networks are well-suited to classifying, processing and making predictions based on time series data.
+I choose to use an artificial [recurrent neural network](https://en.wikipedia.org/wiki/Recurrent_neural_network) (RNN) architecture of the type Long short-term memory [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory). LSTM networks are well-suited to classifying, processing and making predictions based on time series data.
 These steps allow me to reduce the dimension of the problem and obtain better results despite the relatively small dataset. 
 
  
