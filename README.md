@@ -24,3 +24,4 @@ These steps allow me to reduce the dimension of the problem and obtain better re
 #### # [Extracting the names of actors and the oscar nomination](https://pypi.org/project/wikipedia/) ,  https://qxf2.com/blog/web-scraping-using-python/
 #### # [Extracting the articles](https://pypi.org/project/Wikipedia-API/0.2.0/)
 #### # [Model](https://github.com/udacity/deep-learning/blob/master/sentiment-rnn/Sentiment_RNN_Solution.ipynb)
+#### # [Topic extraction](https://github.com/scikit-learn/scikit-learn/blob/master/examples/applications/plot_topics_extraction_with_nmf_lda.py)
