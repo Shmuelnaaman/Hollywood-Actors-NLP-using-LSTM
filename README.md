@@ -21,6 +21,6 @@ These steps allow me to reduce the dimension of the problem and obtain better re
 
  
 ### Reference
-#### # Extracting the names of actors and the oscar nomination : https://qxf2.com/blog/web-scraping-using-python/ , https://pypi.org/project/wikipedia/
-#### # Extracting the career : https://pypi.org/project/Wikipedia-API/0.2.0/
-#### # Model : https://github.com/udacity/deep-learning/blob/master/sentiment-rnn/Sentiment_RNN_Solution.ipynb
+#### # [Extracting the names of actors and the oscar nomination : ](https://qxf2.com/blog/web-scraping-using-python/ , https://pypi.org/project/wikipedia/)
+#### # [Extracting the career : ](https://pypi.org/project/Wikipedia-API/0.2.0/)
+#### # [Model : ](https://github.com/udacity/deep-learning/blob/master/sentiment-rnn/Sentiment_RNN_Solution.ipynb)
